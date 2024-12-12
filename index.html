@@ -16,7 +16,9 @@
       let ties = 0;
 
       for (let i = 1; i < 6; i++) {
-        let userInput = prompt("Enter rock paper or scissors to play").toLowerCase();
+        let userInput = prompt(
+          "Enter rock paper or scissors to play"
+        ).toLowerCase();
         playGame(userInput);
         if (i === 5) {
           score();
@@ -80,7 +82,7 @@
           console.log("Scissors tied with Scissors");
           return ties++;
         }
-      }<!-- adding a comment here to see if this will update git instead.-->
+      }
     </script>
   </body>
 </html>
